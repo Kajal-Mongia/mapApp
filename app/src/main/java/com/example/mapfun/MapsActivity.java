@@ -46,7 +46,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     LatLng currentLocation;
 
 
-    //widgets
+    //widget
     private EditText mSearchText;
 
     @Override
