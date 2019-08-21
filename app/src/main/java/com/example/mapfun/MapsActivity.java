@@ -82,6 +82,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     public void geolocate(){
+        mMap.clear();
         Log.d("geolocate","geolocating");
         String searchString=mSearchText.getText().toString();
         Geocoder geocoder=new Geocoder(MapsActivity.this);
